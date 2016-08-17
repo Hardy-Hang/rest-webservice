@@ -22,7 +22,7 @@ public class CategoryServerStart {
 		restServer.setAddress("http://localhost:9000/");
 		Server server = restServer.create();
 		server.start();
-		
+
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		try {
 			br.readLine();
